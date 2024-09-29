@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .grid>div{
+            grid-row: var(--r);
+            grid-column: var(--c);
+        }
+    </style>
+</head>
+<body>
+    <div class="w-full">
+        <div class="w-full bg-[#4d0d0d]">
+            <div class="grid grid-cols-8 grid-rows-20 gap-2 overflow-hidden">
+                <div class="elem col-span-1 row-span-1" style="--r: 1; --c: 3;">
+                    <img src="https://picsum.photos/id/200/300">
+                </div>
+                <div class="elem col-span-1 row-span-1" style="--r: 1; --c: 7;">
+                    <img src="https://picsum.photos/id/300/300">
+                </div>
+                <div class="elem col-span-1 row-span-1" style="--r: 2; --c: 2;">
+                    <img src="https://picsum.photos/id/100/300">
+                </div>
+                <div class="elem col-span-1 row-span-1" style="--r: 3; --c: 6;">
+                    <img src="https://picsum.photos/id/220/300">
+                </div>
+                <div class="elem col-span-1 row-span-1" style="--r: 2; --c: 4;">
+                    <img src="https://picsum.photos/id/220/300">
+                </div>
+                <div class="elem col-span-1 row-span-1" style="--r: 4; --c: 8;">
+                    <img src="https://picsum.photos/id/230/300">
+                </div>
+                <div class="elem col-span-1 row-span-1" style="--r: 2; --c: 1;">
+                    <img src="https://picsum.photos/id/240/300">
+                </div>
+                <div class="elem col-span-1 row-span-1" style="--r: 6; --c: 4;">
+                    <img src="https://picsum.photos/id/250/300">
+                </div>
+                <div class="elem col-span-1 row-span-1" style="--r: 4; --c: 2;">
+                    <img src="https://picsum.photos/id/260/300">
+                </div>
+                <div class="elem col-span-1 row-span-1" style="--r: 1; --c: 3;">
+                    <img src="https://picsum.photos/id/270/300">
+                </div>
+                <div class="elem col-span-1 row-span-1" style="--r: 7; --c: 7;">
+                    <img src="https://picsum.photos/id/280/300">
+                </div>
+                <div class="elem col-span-1 row-span-1" style="--r: 9; --c: 8;">
+                    <img src="https://picsum.photos/id/290/300">
+                </div>
+                <div class="elem col-span-1 row-span-1" style="--r: 9; --c: 5;">
+                    <img src="https://picsum.photos/id/201/300">
+                </div>
+                <div class="elem col-span-1 row-span-1" style="--r: 2; --c: 8;">
+                    <img src="https://picsum.photos/id/202/300">
+                </div>
+                <div class="elem col-span-1 row-span-1" style="--r: 3; --c: 3;">
+                    <img src="https://picsum.photos/id/203/300">
+                </div>
+                <div class="elem col-span-1 row-span-1" style="--r: 6; --c: 4;">
+                    <img src="https://picsum.photos/id/204/300">
+                </div>
+                <div class="elem col-span-1 row-span-1" style="--r: 7; --c: 2;">
+                    <img src="https://picsum.photos/id/235/300">
+                </div>
+                <div class="elem col-span-1 row-span-1" style="--r: 3; --c: 6;">
+                    <img src="https://picsum.photos/id/206/300">
+                </div>
+                <div class="elem col-span-1 row-span-1" style="--r: 10; --c: 7;">
+                    <img src="https://picsum.photos/id/237/300">
+                </div>
+                <div class="elem col-span-1 row-span-1" style="--r: 10; --c: 3;">
+                    <img src="https://picsum.photos/id/208/300">
+                </div>
+
+
+            </div>
+            <div class="fixed top-0 font-['Helvetica'] left-0 w-full h-full flex flex-col items-center justify-center text-white">
+                <h1 class="text-8xl mb-4">KUNAL DHAMIWAL
+                    <sup>®</sup>
+                </h1>
+                <h2 class="text-4xl">ヨ ハブ ノ エネミエス</h2>
+            </div>
+            <div class="w-full h-screen bg-[#D1D1D1] flex items-center justify-center mx-auto py-96 relative z-[999] text-center">
+                <p class="text-black text-5xl w-3/4 font-regular leading-[4.2rem]">Created with Lenis for Smooth scrolling and GSAP for animating the background images. Ready in just 40 min. Lenis really made the scrolling smoothe and accessible. Small but fun project. Peace Out ✌️.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
+    <script src="script.js"></script> 
+</body>
+</html>
